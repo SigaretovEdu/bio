@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Sun 14 May 2023 16:20:42
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20230514-161945-0467-50788796-p1m.aupfile
+#    -bsequence emboss_needle-I20230514-161945-0467-50788796-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SIA4C_HUMAN
+# 2: SIA4C_PANTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 333
+# Identity:     320/333 (96.1%)
+# Similarity:   323/333 (97.0%)
+# Gaps:           5/333 ( 1.5%)
+# Score: 1660.5
+# 
+#
+#=======================================
+
+SIA4C_HUMAN        1 MVSKSRWKLLAMLALVLVVMVWYSISREDRYIELFYFPIPEKKEPCLQGE     50
+                      :..:.|||||||||||||||||||||||.    ||||||||||||||||
+SIA4C_PANTR        1 -MCPAGWKLLAMLALVLVVMVWYSISREDS----FYFPIPEKKEPCLQGE     45
+
+SIA4C_HUMAN       51 AESKASKLFGNYSRDQPIFLRLEDYFWVKTPSAYELPYGTKGSEDLLLRV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SIA4C_PANTR       46 AESKASKLFGNYSRDQPIFLRLEDYFWVKTPSAYELPYGTKGSEDLLLRV     95
+
+SIA4C_HUMAN      101 LAITSSSIPKNIQSLRCRRCVVVGNGHRLRNSSLGDAINKYDVVIRLNNA    150
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+SIA4C_PANTR       96 LAITSSSIRKNIQSLRCRRCVVVGNGHRLRNSSLGDAINKYDVVIRLNNA    145
+
+SIA4C_HUMAN      151 PVAGYEGDVGSKTTMRLFYPESAHFDPKVENNPDTLLVLVAFKAMDFHWI    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SIA4C_PANTR      146 PVAGYEGDVGSKTTMRLFYPESAHFDPKVENNPDTLLVLVAFKAMDFHWI    195
+
+SIA4C_HUMAN      201 ETILSDKKRVRKGFWKQPPLIWDVNPKQIRILNPFFMEIAADKLLSLPMQ    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SIA4C_PANTR      196 ETILSDKKRVRKGFWKQPPLIWDVNPKQIRILNPFFMEIAADKLLSLPMQ    245
+
+SIA4C_HUMAN      251 QPRKIKQKPTTGLLAITLALHLCDLVHIAGFGYPDAYNKKQTIHYYEQIT    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SIA4C_PANTR      246 QPRKIKQKPTTGLLAITLALHLCDLVHIAGFGYPDAYNKKQTIHYYEQIT    295
+
+SIA4C_HUMAN      301 LKSMAGSGHNVSQEALAIKRMLEMGAIKNLTSF    333
+                     ||||||||||||||||||||||||||:||||||
+SIA4C_PANTR      296 LKSMAGSGHNVSQEALAIKRMLEMGAVKNLTSF    328
+
+
+#---------------------------------------
+#---------------------------------------

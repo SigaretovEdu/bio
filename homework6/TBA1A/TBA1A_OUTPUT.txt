@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Sun 14 May 2023 16:18:34
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20230514-161756-0436-87674554-p1m.aupfile
+#    -bsequence emboss_needle-I20230514-161756-0436-87674554-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TBA1A_HUMAN
+# 2: TBA1A_PANTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 451
+# Identity:     451/451 (100.0%)
+# Similarity:   451/451 (100.0%)
+# Gaps:           0/451 ( 0.0%)
+# Score: 2394.0
+# 
+#
+#=======================================
+
+TBA1A_HUMAN        1 MRECISIHVGQAGVQIGNACWELYCLEHGIQPDGQMPSDKTIGGGDDSFN     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR        1 MRECISIHVGQAGVQIGNACWELYCLEHGIQPDGQMPSDKTIGGGDDSFN     50
+
+TBA1A_HUMAN       51 TFFSETGAGKHVPRAVFVDLEPTVIDEVRTGTYRQLFHPEQLITGKEDAA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR       51 TFFSETGAGKHVPRAVFVDLEPTVIDEVRTGTYRQLFHPEQLITGKEDAA    100
+
+TBA1A_HUMAN      101 NNYARGHYTIGKEIIDLVLDRIRKLADQCTGLQGFLVFHSFGGGTGSGFT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR      101 NNYARGHYTIGKEIIDLVLDRIRKLADQCTGLQGFLVFHSFGGGTGSGFT    150
+
+TBA1A_HUMAN      151 SLLMERLSVDYGKKSKLEFSIYPAPQVSTAVVEPYNSILTTHTTLEHSDC    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR      151 SLLMERLSVDYGKKSKLEFSIYPAPQVSTAVVEPYNSILTTHTTLEHSDC    200
+
+TBA1A_HUMAN      201 AFMVDNEAIYDICRRNLDIERPTYTNLNRLIGQIVSSITASLRFDGALNV    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR      201 AFMVDNEAIYDICRRNLDIERPTYTNLNRLIGQIVSSITASLRFDGALNV    250
+
+TBA1A_HUMAN      251 DLTEFQTNLVPYPRIHFPLATYAPVISAEKAYHEQLSVAEITNACFEPAN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR      251 DLTEFQTNLVPYPRIHFPLATYAPVISAEKAYHEQLSVAEITNACFEPAN    300
+
+TBA1A_HUMAN      301 QMVKCDPRHGKYMACCLLYRGDVVPKDVNAAIATIKTKRTIQFVDWCPTG    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR      301 QMVKCDPRHGKYMACCLLYRGDVVPKDVNAAIATIKTKRTIQFVDWCPTG    350
+
+TBA1A_HUMAN      351 FKVGINYQPPTVVPGGDLAKVQRAVCMLSNTTAIAEAWARLDHKFDLMYA    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR      351 FKVGINYQPPTVVPGGDLAKVQRAVCMLSNTTAIAEAWARLDHKFDLMYA    400
+
+TBA1A_HUMAN      401 KRAFVHWYVGEGMEEGEFSEAREDMAALEKDYEEVGVDSVEGEGEEEGEE    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TBA1A_PANTR      401 KRAFVHWYVGEGMEEGEFSEAREDMAALEKDYEEVGVDSVEGEGEEEGEE    450
+
+TBA1A_HUMAN      451 Y    451
+                     |
+TBA1A_PANTR      451 Y    451
+
+
+#---------------------------------------
+#---------------------------------------
